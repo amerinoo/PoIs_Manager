@@ -24,13 +24,13 @@ def extract_pois():
         os.chdir(args.folder)
         for _, _, files in os.walk("."):
             for file in files:
-                result = to_xml(file[:-4])
+                result = to_poi(file[:-4])
                 f.write(result + "\n")
                 print("From", file, ":", result)
         print("Saved locations into", args.output)
 
 
-def to_xml(location):
+def to_poi(location):
     # Extract the doc.kml file from kmz file
     with zipfile.ZipFile(location + ".kmz", "r") as zip_ref:
         zip_ref.extract("doc.kml")
