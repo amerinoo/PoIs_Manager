@@ -66,7 +66,10 @@ def check_pois():
             line = xml_file.readline().strip()
             while line:
                 while line.count("</LookAt>") != 1:
-                    line += xml_file.readline().strip()
+                    sub_line = xml_file.readline().strip()
+                    if not sub_line:
+                        break
+                    line += sub_line
 
                 check_flytoview(line)
                 check_angle_bracket(line)
