@@ -1,7 +1,7 @@
-import xml.dom.minidom
-import os
-import zipfile
 import argparse
+import os
+import xml.dom.minidom
+import zipfile
 
 parser = argparse.ArgumentParser(description='Process the KMZ files that you extract from Google Earth and save '
                                              'de PoIs to a file')
@@ -50,12 +50,46 @@ def to_poi(location):
     return (args.planet + "@" + location + "@flytoview=" + lookat).replace("\n", "").replace("\t", "")
 
 
+def check_flytoview(line):
+    if line.count("@flytoview=") != 1:
+        print("Flytoview error:", line)
+
+
+def check_angle_bracket(line):
+    if line.count("</") != line.count(">") / 2:
+        print("Angle bracket error:", line, line.count("</"), line.count(">"))
+
+
+def check_pois():
+    try:
+        with open(args.checkFile, 'r') as xml_file:
+            line = xml_file.readline().strip()
+            while line:
+                while line.count("</LookAt>") != 1:
+                    line += xml_file.readline().strip()
+
+                check_flytoview(line)
+                check_angle_bracket(line)
+
+                line = xml_file.readline().strip()
+    except IOError:
+        print('Invalid File')
+    except:
+        print('Unknown error, exiting.')
+        quit()
+
+
 if __name__ == "__main__":
+    parser.add_argument('--checkFile', help='file name to check the syntax', default=None)
     parser.add_argument('--folder', help='folder where you have the kmz files', default="KMZ")
     parser.add_argument('--planet', help='the planet where your locations are', default="Earth")
     parser.add_argument('--output', help='output file name', default="pois.txt")
     args = parser.parse_args()
 
     print_liquid_galaxy()
-    print("Folder :", args.folder, "\tPlanet :", args.planet, "\tOutput :", args.output)
-    extract_pois()
+
+    if args.checkFile:
+        check_pois()
+    else:
+        print("Folder :", args.folder, "\tPlanet :", args.planet, "\tOutput :", args.output)
+        extract_pois()
