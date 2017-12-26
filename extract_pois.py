@@ -60,10 +60,16 @@ def check_angle_bracket(line):
         print("Angle bracket error:", line, line.count("</"), line.count(">"))
 
 
+def check_pois_count(count, minimum=30):
+    if count < minimum:
+        print("There are", count, "POIs in the file. Remaining", minimum - count, "POIs.")
+
+
 def check_pois():
     try:
         with open(args.checkFile, 'r') as xml_file:
             line = xml_file.readline().strip()
+            count = 0
             while line:
                 while line.count("</LookAt>") != 1:
                     sub_line = xml_file.readline().strip()
@@ -75,6 +81,10 @@ def check_pois():
                 check_angle_bracket(line)
 
                 line = xml_file.readline().strip()
+                count += 1
+
+            check_pois_count(count)
+
     except IOError:
         print('Invalid File')
     except:
