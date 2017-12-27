@@ -1,0 +1,75 @@
+
+earth@AMARAVATHI RIVER@flytoview=<LookAt><longitude>77.70610363917477</longitude><latitude>10.65693732028434</latitude><altitude>0</altitude>
+<heading>0.01934288676528286</heading><tilt>0</tilt><range>17975.7153505387</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@BAHVANI RIVER@flytoview=<LookAt><longitude>77.38617897164741</longitude><latitude>11.47576899996054</latitude><altitude>0</altitude>
+<heading>-0.0007950759579869487</heading><tilt>0</tilt><range>6803.577748455802</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+
+
+earth@CHALAKKUDY RIVER@flytoview=<LookAt><longitude>76.44904480599124</longitude><latitude>10.24008150576473</latitude><altitude>0</altitude>
+<heading>-0.0004271302919706372</heading><tilt>0</tilt><range>7425.116864805359</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@DWARAKA RIVER@flytoview=<LookAt><longitude>87.81417814643736</longitude><latitude>24.12027534846017</latitude><altitude>0</altitude>
+<heading>-0.0007326792187085242</heading><tilt>0</tilt><range>2660.453506630294</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+
+
+earth@HEMAVATHI RIVER@flytoview=<LookAt><longitude>76.26175868953416</longitude><latitude>12.68995991655459</latitude><altitude>0</altitude>
+<heading>-0.002113439081017376</heading><tilt>0</tilt><range>34552.61722399855</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@HOOGLY RIVER@flytoview=<LookAt><longitude>88.16894222789291</longitude><latitude>22.94433729106457</latitude><altitude>0</altitude>
+<heading>-0.03736060491349532</heading><tilt>0</tilt><range>115842.2623354491</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@KAVERI RIVER@flytoview=<LookAt><longitude>77.6221761249421</longitude><latitude>11.67433496335555</latitude><altitude>0</altitude>
+<heading>-0.0003387010037252841</heading><tilt>0</tilt><range>563469.7640761496</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@MANIMUTHAR RIVER@flytoview=<LookAt><longitude>79.29299395107861</longitude><latitude>11.52332255189646</latitude><altitude>0</altitude>
+<heading>-0.0008716549010351513</heading><tilt>0</tilt><range>9902.053349788283</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@NARMADA RIVER@flytoview=<LookAt><longitude>77.12430522484056</longitude><latitude>22.28972106215176</latitude><altitude>0</altitude>
+<heading>0.01713268217269686</heading><tilt>0</tilt><range>27764.55399984124</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@PALAR RIVER@flytoview=<LookAt><longitude>79.3537507917048</longitude><latitude>12.72710200385622</latitude><altitude>0</altitude>
+<heading>-0.000635310054496238</heading><tilt>0</tilt><range>11695.13513266863</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@PENNA RIVER@flytoview=<LookAt><longitude>78.6420129652588</longitude><latitude>15.13978356346775</latitude><altitude>0</altitude>
+<heading>-0.1300404284485479</heading><tilt>0</tilt><range>244936.0435844179</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER BEAS@flytoview=<LookAt><longitude>76.07821845851693</longitude><latitude>31.69496295385925</latitude><altitude>0</altitude>
+<heading>-0.05429784443107153</heading><tilt>0</tilt><range>90707.81691254622</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER BRAHMAPUTRA@flytoview=<LookAt><longitude>92.5275561931457</longitude><latitude>26.5071764609702</latitude><altitude>0</altitude>
+<heading>0.07811261891574346</heading><tilt>0</tilt><range>158550.3927566414</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER CHAMABAL@flytoview=<LookAt><longitude>75.5390950881264</longitude><latitude>22.42300915887989</latitude><altitude>0</altitude>
+<heading>0.6074470801085503</heading><tilt>0</tilt><range>13301.12440116185</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER DAMODAR@flytoview=<LookAt><longitude>87.71075130000001</longitude><latitude>22.8983877</latitude><altitude>0</altitude>
+<heading>4.373262687012336e-015</heading><tilt>0</tilt><range>339502.7192315797</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER GANGA@flytoview=<LookAt><longitude>83.1020197750567</longitude><latitude>27.41076349920105</latitude><altitude>0</altitude>
+<heading>2.254025558587607</heading><tilt>0</tilt><range>88172.69328774732</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER GODAVARI@flytoview=<LookAt><longitude>81.77619905639358</longitude><latitude>16.91475728135832</latitude><altitude>0</altitude>
+<heading>-0.3268150721935758</heading><tilt>0</tilt><range>1088433.608823864</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER INDUS@flytoview=<LookAt><longitude>73.37519619946394</longitude><latitude>30.01412713249554</latitude><altitude>0</altitude>
+<heading>0.01313713378097229</heading><tilt>13.35124098479377</tilt><range>105470.2813684781</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+earth@RIVER JAMUNNA@flytoview=<LookAt><longitude>88.98925391160556</longitude><latitude>25.34983601291009</latitude><altitude>0</altitude>
+<heading>0.2903567882181294</heading><tilt>0</tilt><range>99202.37442744635</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>	
+earth@RIVER KRISHNA@flytoview=<LookAt><longitude>77.49105240000003</longitude><latitude>16.8561867</latitude><altitude>0</altitude>
+<heading>9.939233379573489e-015</heading><tilt>0</tilt><range>1400770.899395384</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>	
+earth@RIVER MAHANADI@flytoview=<LookAt><longitude>84.04072653741768</longitude><latitude>21.0120989580969</latitude><altitude>0</altitude>
+<heading>5.447630171252352e-006</heading><tilt>0</tilt><range>687069.3401563268</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER NOYYAL@flytoview=<LookAt><longitude>77.27339181458909</longitude><latitude>11.11984038734428</latitude><altitude>0</altitude>
+<heading>-0.01064988874528229</heading><tilt>0</tilt><range>67041.52305792685</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER PERIYAR@flytoview=<LookAt><longitude>76.58077849979907</longitude><latitude>10.09081868278006</latitude><altitude>0</altitude>
+<heading>-0.004539517372403668</heading><tilt>0</tilt><range>19399.0931219752</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER RAVI@flytoview=<LookAt><longitude>74.30634374380504</longitude><latitude>31.34191028667412</latitude><altitude>0</altitude>
+<heading>0.004750540087585706</heading><tilt>0</tilt><range>159298.6007954682</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER SABARMATHI@flytoview=<LookAt><longitude>72.87254453206172</longitude><latitude>23.52921933977532</latitude><altitude>0</altitude>
+<heading>0.6410209569624656</heading><tilt>0</tilt><range>69803.64739831613</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER SUTLEJ@flytoview=LookAt><longitude>75.25368372857015</longitude><latitude>30.36062486102471</latitude><altitude>0</altitude>
+<heading>-0.5988711631272223</heading><tilt>0</tilt><range>307843.8147277779</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER TAPI@flytoview=<LookAt><longitude>73.13996332117004</longitude><latitude>21.2131873204109</latitude><altitude>0</altitude>
+<heading>0.6443990240617832</heading><tilt>0</tilt><range>16700.26363955323</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@RIVER YAMUNNA@flytoview=<LookAt><longitude>79.47371182667924</longitude><latitude>27.99697536902966</latitude><altitude>0</altitude>
+<heading>2.688967712535721</heading><tilt>0</tilt><range>44530.12680540534</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@THAMIRABARANI RIVER@flytoview=<LookAt><longitude>77.73465191365672</longitude><latitude>8.700191088095727</latitude><altitude>0</altitude>
+<heading>0.003630155686532319</heading><tilt>0</tilt><range>4882.350808199306</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@THEN PENNAI RIVER@flytoview=<LookAt><longitude>78.98185220000002</longitude><latitude>12.1230904</latitude><altitude>0</altitude>
+<heading>-7.553817368475854e-015</heading><tilt>0</tilt><range>360278.8929031591</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+earth@VAIAGAI@flytoview=<LookAt><longitude>78.22543830826908</longitude><latitude>9.68501973823575</latitude><altitude>0</altitude>
+<heading>0.003819278998566759</heading><tilt>0</tilt><range>67309.92601976877</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+
+
+
+

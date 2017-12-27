@@ -16,46 +16,68 @@ def print_liquid_galaxy():
           "-------------------------------------------------------------\n")
 
 
-def check_flytoview(line):
-    if line.count("@flytoview=") != 1:
-        print("Flytoview error:", line)
+def check_flytoview(line, errors):
+    if line.count("@flytoview=") != 1 and line:
+        errors.append("Flytoview error: " + line)
 
 
-def check_angle_bracket(line):
+def check_angle_bracket(line, errors):
     if line.count("</") != line.count(">") / 2:
-        print("Angle bracket error:", line, line.count("</"), line.count(">"))
+        errors.append("Angle bracket error: " + line + " " + line.count("</") + "  " + line.count(">"))
+
+
+def check_lookat(line, errors):
+    for p in ["/ook", "look"]:
+        if line.count(p) > 0:
+            errors.append("LookAt error: " + line)
+            return True
+    return False
 
 
 def check_pois_count(count, minimum=30):
+    print("There are", count, "POIs in the file.", end=' ')
     if count < minimum:
-        print("There are", count, "POIs in the file. Remaining", minimum - count, "POIs.")
+        print("Remaining", minimum - count, "POIs.")
+    else:
+        print("There are", count - minimum, "extra POIs.\n")
+
+
+def show_errors(errors):
+    if len(errors) > 0:
+        print("There are", len(errors), "errors in this file:")
+    else:
+        print("There are not mistakes in this file!")
+    tag = "</altitude>"
+    for idx, error in enumerate(errors):
+        print(idx + 1, "-", error[:error.find(tag) + len(tag)])
+        print("\t", error[error.find(tag) + len(tag):])
 
 
 def check_pois():
     try:
         with open(args.checkFile, 'r') as xml_file:
-            line = xml_file.readline().strip()
+            errors = []
+            line = xml_file.readline()
             count = 0
             while line:
+                line = line.strip()
                 while line.count("</LookAt>") != 1:
                     sub_line = xml_file.readline().strip()
-                    if not sub_line:
-                        break
                     line += sub_line
+                    if not sub_line or check_lookat(line, errors):
+                        break
 
-                check_flytoview(line)
-                check_angle_bracket(line)
-
-                line = xml_file.readline().strip()
-                count += 1
+                check_flytoview(line, errors)
+                check_angle_bracket(line, errors)
+                if line:
+                    count += 1
+                line = xml_file.readline()
 
             check_pois_count(count)
+            show_errors(errors)
 
     except IOError:
         print('Invalid File')
-    except:
-        print('Unknown error, exiting.')
-        quit()
 
 
 if __name__ == "__main__":
